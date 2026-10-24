@@ -1,0 +1,93 @@
+# Local training, evaluation, and collected datasets
+/outputs/
+/data/fmsr_ckpt/
+/data/carla_leaderboard2/
+/fmsr_pdm_lite/runs/
+/fmsr_pdm_lite/validation/
+/fmsr_pdm_lite/evaluations/
+/packages/plutosil/script/pluto/forward_data/
+/packages/plutosil/script/pluto/the_simulation_result_video/
+
+# Model weights (keep source code and training/evaluation configuration)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.t7
+
+# Evaluation artifacts inside third-party working copies
+**/*_b2d_traj/
+/carla_garage/Bench2Drive/eval.json
+/3rd_party/carla_garage/Bench2Drive/eval.json
+
+# Experiment logs and monitoring output
+*.log
+events.out.tfevents.*
+wandb/
+tensorboard/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+/.aws/
+/.agents/
+/.codex/
+/.idea/
+/.vscode/
+
+# Generated Python/build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+build/
+dist/
+
+# Local sharing archives, papers, and screenshots
+/code_sharing/
+/code_sharing.zip
+/*.pdf
+/ScreenShot_*.png
+/微信图片_*.png
+__MACOSX/
+.DS_Store
+
+# External simulator installation
+/3rd_party/CARLA_0915
+
+# Additional exclusions for the small source release
+*.h5
+*.npy
+*.npz
+*.pkl
+*.t7
+*.mp4
+*.avi
+*.bag
+*.db3
+/data/
+/notebooks/
+**/mapdata/
+**/*_b2d_traj/
+
+# Excluded ROS/vehicle integration and dependent tools
+/packages/
+/scripts/check_nongan_run.py
+/scripts/plot_nongan_evaluation.py
+/scripts/run_nongan_fm.sh
+/scripts/setup_nongan_fm.sh
+/scripts/validate_controller_diagnostics.py
+/scripts/validate_nongan_backlog.py
+/scripts/validate_nongan_control_fix.py
+/scripts/validate_nongan_runtime_optimization.py

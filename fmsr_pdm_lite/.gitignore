@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+assets/
+runs/
+evaluations/
+validation/
+original_code_integrity.json

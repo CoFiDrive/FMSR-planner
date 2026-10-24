@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/ShuLiu-ETHZ/BridgeDrive",
+  "commit": "85aa089a321a7b7cbc42aa58b3be508eb223d9e2",
+  "commit_date": "2026-08-22",
+  "retrieved_date": "2026-10-05",
+  "paper": "https://arxiv.org/abs/2509.23589v4",
+  "paper_version": "v4",
+  "paper_date": "2026-03-05",
+  "sha256": {
+    "README.md": "7c4ed75d6abf5775bd578d4c3b76895d6b4d7dad12440dc58a8041f4d2b767d7",
+    "BridgeDrive_adaptation_LEAD/lead/tfv6/diffusion_modules/model_diffusion_head_ddbm.py": "afaa37c926e17d60735b05243db9d4a14e0efdf359eed3715601d2db859826c7",
+    "BridgeDrive_adaptation_LEAD/lead/tfv6/diffusion_modules/blocks.py": "de879c63cbfaf8fe96437cb84f4a9c28392625ec6706132032afceed4ffc2776",
+    "BridgeDrive_adaptation_LEAD/lead/tfv6/diffusion_modules/conditional_unet1d.py": "90c69f96953d4367e3379b907bcb3b233ab68d733326ccb35220519ce32faf1a",
+    "BridgeDrive_adaptation_LEAD/lead/tfv6/diffusion_modules/multimodal_loss_ddbm.py": "cb068fd97d84f47b9e75b9e25232c3d083016b3372d488bf39a64941699db46c",
+    "BridgeDrive_adaptation_LEAD/lead/training/config_training.py": "9ba67e841d39e50b23fe26354c301bd9cf168df0c42a6e6e2775963fc22554a6",
+    "BridgeDrive_adaptation_LEAD/scripts/posttrain_bridgedrive.sh": "946244e90f77e401fa9175db2fae9721a56553f201ca25f953e0369d3d001528"
+  }
+}
